@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<DOCUMENT>
+  <IDEVersion value="552"/>
+  <TodoList>020000000F00000001010001020100640308000000000000000000040800A58DFCDFB613E4400508000000000000000000060400FFFFFFFF070000080100030900000A0100000B30005300740061006E006400420079002D004D006F006400750073002000680069006E007A0075006600FC00670065006E000C0400000000000D080000000000000000000E00000F00000F00000001010001020100000308000000000000000000040800734BAB79DD13E4400508000000000000000000060400FFFFFFFF070000080100030900000A0100000B50005200750064006500720061006E007A0065006900670065003A00200022003C003C003C003C003C0022002C00200022007C007C00220020006F00640065007200200022003E003E003E003E003E0022000C0400000000000D080000000000000000000E00000F0000</TodoList>
+  <LibraryForm.rsPropSaver1>
+    <LMDCheckListBox1.Items value="DCF_Lib.cc&cr;&lf;IntFunc_Lib.cc&cr;&lf;Key_Lib.cc&cr;&lf;LCD_Lib.cc&cr;&lf;String_Lib.cc&cr;&lf;"/>
+    <LMDStrList1.Items value="0&cr;&lf;1&cr;&lf;1&cr;&lf;1&cr;&lf;1&cr;&lf;"/>
+  </LibraryForm.rsPropSaver1>
+  <PrjOptionForm.rsPropSaver1>
+    <LMDEdit1.Text value="Jörg Pauly"/>
+    <LMDEdit2.Text value="1.1.2836"/>
+    <LMDMemo1.Text value="Autopilot-Controller für die Voyager."/>
+  </PrjOptionForm.rsPropSaver1>
+  <Projects>
+    <Proj1>
+      <PrjChip value="2"/>
+      <PrjName value="VoyagerAP"/>
+      <PrjOptions value="317"/>
+      <Files>
+        <0 value="DataArray.cc"/>
+        <1 value="RudderManager.cc"/>
+        <2 value="RudderManager.h"/>
+        <3 value="PanelManager.cc"/>
+        <4 value="PanelManager.h"/>
+        <5 value="NMEAListener.cc"/>
+        <6 value="NaviManager.cc"/>
+        <7 value="VoyagerAP.cc"/>
+      </Files>
+    </Proj1>
+  </Projects>
+</DOCUMENT>

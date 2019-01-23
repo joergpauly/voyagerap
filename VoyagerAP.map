@@ -1,0 +1,520 @@
+Globale Variablen                         Laenge    Position (RAM Anfang)
+-------------------------------------------------------------------------
+keymap                                    17        17    
+inBuffer                                  255       272   
+outBuffer                                 86        358   
+stream                                    255       613   
+sentence                                  85        698   
+xte                                       4         702   
+l_xte                                     4         706   
+dtw                                       4         710   
+btw                                       4         714   
+htw                                       4         718   
+cog                                       4         722   
+cts                                       4         726   
+xta                                       2         728   
+sog                                       4         732   
+hdg                                       4         736   
+valBuf01                                  32        768   
+valBuf02                                  32        800   
+valBuf03                                  32        832   
+valBuf04                                  32        864   
+valBuf05                                  32        896   
+valBuf06                                  32        928   
+valBuf07                                  32        960   
+valBuf08                                  32        992   
+valBuf09                                  32        1024  
+valBuf10                                  32        1056  
+valBuf11                                  32        1088  
+valBuf12                                  32        1120  
+valBuf13                                  32        1152  
+valBuf14                                  32        1184  
+valBuf15                                  32        1216  
+Version                                   9         1225  
+Key                                       1         1226  
+state                                     2         1228  
+dra                                       2         1230  
+strn                                      80        1310  
+RA                                        2         1312  
+steerAngel                                2         1314  
+rudderPosBb                               2         1316  
+rudderPosNeutral                          2         1318  
+rudderPosStb                              2         1320  
+Mode                                      2         1322  
+keepXTrack                                2         1324  
+shown                                     2         1326  
+str                                       9         1335  
+Gesamtlaenge: 1335 bytes
+
+
+
+Lokale Variablen                          Laenge    Position (Stackrelativ)
+---------------------------------------------------------------------------
+Funktion Key_Init()
+Gesamtlaenge: 0 bytes
+
+
+Funktion Key_TranslateKey()
+keys                                      2         5     
+--
+i                                         2         0     
+Gesamtlaenge: 4 bytes
+
+
+Funktion LCD_WriteCTRRegister()
+cmd                                       1         3     
+Gesamtlaenge: 1 bytes
+
+
+Funktion LCD_WriteDataRegister()
+x                                         1         3     
+Gesamtlaenge: 1 bytes
+
+
+Funktion LCD_Init()
+Gesamtlaenge: 0 bytes
+
+
+Funktion LCD_WriteChar()
+c                                         1         3     
+Gesamtlaenge: 1 bytes
+
+
+Funktion LCD_CursorOn()
+Gesamtlaenge: 0 bytes
+
+
+Funktion LCD_CursorOff()
+Gesamtlaenge: 0 bytes
+
+
+Funktion LCD_CursorPos()
+pos                                       1         3     
+Gesamtlaenge: 1 bytes
+
+
+Funktion LCD_Locate()
+Zeile                                     2         6     
+Pos                                       2         4     
+--
+Position                                  1         0     
+Gesamtlaenge: 5 bytes
+
+
+Funktion LCD_ClearLCD()
+Gesamtlaenge: 0 bytes
+
+
+Funktion LCD_WriteText()
+text                                      2         5     
+--
+i                                         2         0     
+Gesamtlaenge: 4 bytes
+
+
+Funktion LCD_WriteWord()
+Variable                                  2         10    
+Length                                    1         9     
+--
+String                                    6         0     
+Gesamtlaenge: 9 bytes
+
+
+Funktion LCD_WriteFloat()
+Variable                                  4         24    
+Length                                    1         23    
+--
+String                                    20        0     
+Gesamtlaenge: 25 bytes
+
+
+Funktion Str_Fill()
+dest                                      2         8     
+c                                         1         7     
+len                                       2         5     
+--
+i                                         2         0     
+Gesamtlaenge: 7 bytes
+
+
+Funktion Str_SubStr()
+source                                    2         14    
+search                                    2         12    
+--
+i                                         2         7     
+j                                         2         5     
+len                                       2         3     
+s                                         1         2     
+c                                         1         1     
+v                                         1         0     
+Gesamtlaenge: 13 bytes
+
+
+Funktion Str_Isalpha()
+c                                         1         3     
+Gesamtlaenge: 1 bytes
+
+
+Funktion Str_Isalnum()
+c                                         1         3     
+Gesamtlaenge: 1 bytes
+
+
+Funktion rudderAngelManager()
+--
+leftRange                                 2         12    
+rightRange                                2         10    
+bbRef                                     4         6     
+stbRef                                    4         2     
+raw                                       2         0     
+Gesamtlaenge: 14 bytes
+
+
+Funktion GetAdc()
+Channel                                   1         3     
+Gesamtlaenge: 1 bytes
+
+
+Funktion calculateSteering()
+--
+absxta                                    2         3     
+cca                                       2         1     
+lr                                        1         0     
+Gesamtlaenge: 5 bytes
+
+
+Funktion rudderManager()
+Gesamtlaenge: 0 bytes
+
+
+Funktion driveUpRudder()
+speed                                     2         3     
+Gesamtlaenge: 2 bytes
+
+
+Funktion DriverCutOff()
+Gesamtlaenge: 0 bytes
+
+
+Funktion panelManager()
+Gesamtlaenge: 0 bytes
+
+
+Funktion splash()
+Gesamtlaenge: 0 bytes
+
+
+Funktion scanKey()
+--
+raw                                       2         0     
+Gesamtlaenge: 2 bytes
+
+
+Funktion computeKey()
+Gesamtlaenge: 0 bytes
+
+
+Funktion setState()
+Gesamtlaenge: 0 bytes
+
+
+Funktion homeScreen()
+Gesamtlaenge: 0 bytes
+
+
+Funktion menuScreen()
+Gesamtlaenge: 0 bytes
+
+
+Funktion modeScreen()
+Gesamtlaenge: 0 bytes
+
+
+Funktion modeLevelScreen()
+Gesamtlaenge: 0 bytes
+
+
+Funktion modeLevelSelect()
+Gesamtlaenge: 0 bytes
+
+
+Funktion modeLineScreen()
+Gesamtlaenge: 0 bytes
+
+
+Funktion modeLineSelect()
+Gesamtlaenge: 0 bytes
+
+
+Funktion modeManualScreen()
+Gesamtlaenge: 0 bytes
+
+
+Funktion modeManualSelect()
+Gesamtlaenge: 0 bytes
+
+
+Funktion modeHeadingScreen()
+Gesamtlaenge: 0 bytes
+
+
+Funktion modeHeadingSelect()
+Gesamtlaenge: 0 bytes
+
+
+Funktion modeActHeadingScreen()
+Gesamtlaenge: 0 bytes
+
+
+Funktion modeActHeadingSelect()
+Gesamtlaenge: 0 bytes
+
+
+Funktion modeManHeadingScreen()
+Gesamtlaenge: 0 bytes
+
+
+Funktion modeManHeadingSelect()
+--
+dspLine                                   12        0     
+Gesamtlaenge: 12 bytes
+
+
+Funktion modeLineXTEScreen()
+Gesamtlaenge: 0 bytes
+
+
+Funktion modeStandByScreen()
+Gesamtlaenge: 0 bytes
+
+
+Funktion modeStandBySelect()
+Gesamtlaenge: 0 bytes
+
+
+Funktion monitorScreen()
+Gesamtlaenge: 0 bytes
+
+
+Funktion monitorXteScreen()
+Gesamtlaenge: 0 bytes
+
+
+Funktion monitorCogScreen()
+Gesamtlaenge: 0 bytes
+
+
+Funktion monitorXtaScreen()
+Gesamtlaenge: 0 bytes
+
+
+Funktion monitorCtsScreen()
+Gesamtlaenge: 0 bytes
+
+
+Funktion monitorRudderScreen()
+Gesamtlaenge: 0 bytes
+
+
+Funktion monitorCRDScreen()
+Gesamtlaenge: 0 bytes
+
+
+Funktion settingsScreen()
+Gesamtlaenge: 0 bytes
+
+
+Funktion settingsRudderScreen()
+Gesamtlaenge: 0 bytes
+
+
+Funktion settingsRudderBbd()
+Gesamtlaenge: 0 bytes
+
+
+Funktion settingsRudderNeutral()
+Gesamtlaenge: 0 bytes
+
+
+Funktion settingsRudderStb()
+Gesamtlaenge: 0 bytes
+
+
+Funktion setRudderBbEdit()
+Gesamtlaenge: 0 bytes
+
+
+Funktion setRudderNeutralEdit()
+Gesamtlaenge: 0 bytes
+
+
+Funktion setRudderStbEdit()
+Gesamtlaenge: 0 bytes
+
+
+Funktion XTEmonitor()
+--
+strn                                      9         0     
+Gesamtlaenge: 9 bytes
+
+
+Funktion COGmonitor()
+--
+strn                                      9         0     
+Gesamtlaenge: 9 bytes
+
+
+Funktion XTAmonitor()
+--
+strn                                      9         0     
+Gesamtlaenge: 9 bytes
+
+
+Funktion CTSmonitor()
+--
+strn                                      9         0     
+Gesamtlaenge: 9 bytes
+
+
+Funktion RUDmonitor()
+--
+strn                                      9         0     
+Gesamtlaenge: 9 bytes
+
+
+Funktion RCDmonitor()
+--
+strn                                      9         0     
+Gesamtlaenge: 9 bytes
+
+
+Funktion confirmXTE()
+--
+strn                                      9         0     
+Gesamtlaenge: 9 bytes
+
+
+Funktion increaseHdg()
+cnt                                       2         3     
+Gesamtlaenge: 2 bytes
+
+
+Funktion decreaseHdg()
+cnt                                       2         3     
+Gesamtlaenge: 2 bytes
+
+
+Funktion confirmHDG()
+Gesamtlaenge: 0 bytes
+
+
+Funktion setRudderBbdPos()
+--
+rpos                                      2         0     
+Gesamtlaenge: 2 bytes
+
+
+Funktion setRudderNeuPos()
+--
+rpos                                      2         0     
+Gesamtlaenge: 2 bytes
+
+
+Funktion setRudderStbPos()
+--
+rpos                                      2         0     
+Gesamtlaenge: 2 bytes
+
+
+Funktion initSerial()
+Gesamtlaenge: 0 bytes
+
+
+Funktion listenNMEA()
+Gesamtlaenge: 0 bytes
+
+
+Funktion readSentence()
+--
+s_byte                                    1         2     
+strpos                                    2         0     
+Gesamtlaenge: 3 bytes
+
+
+Funktion parseSentence()
+--
+SID                                       4         2     
+i                                         2         0     
+Gesamtlaenge: 6 bytes
+
+
+Funktion parseAPB()
+Gesamtlaenge: 0 bytes
+
+
+Funktion parseRMC()
+Gesamtlaenge: 0 bytes
+
+
+Funktion parse2array()
+--
+is                                        2         2     
+it                                        2         0     
+Gesamtlaenge: 4 bytes
+
+
+Funktion setXTE()
+Gesamtlaenge: 0 bytes
+
+
+Funktion naviManager()
+Gesamtlaenge: 0 bytes
+
+
+Funktion calculateXta()
+Gesamtlaenge: 0 bytes
+
+
+Funktion calcAerialXta()
+--
+l_cts                                     4         8     
+l_cog                                     4         4     
+l_xta                                     4         0     
+Gesamtlaenge: 12 bytes
+
+
+Funktion calcLineXta()
+--
+l_cts                                     4         8     
+l_cog                                     4         4     
+l_xta                                     4         0     
+Gesamtlaenge: 12 bytes
+
+
+Funktion calcHdgXta()
+--
+l_cts                                     4         8     
+l_cog                                     4         4     
+l_xta                                     4         0     
+Gesamtlaenge: 12 bytes
+
+
+Funktion calcTC()
+--
+l_xte                                     2         2     
+tc                                        2         0     
+Gesamtlaenge: 4 bytes
+
+
+Funktion main()
+Gesamtlaenge: 0 bytes
+
+
+Funktion MainLoop()
+Gesamtlaenge: 0 bytes
+
+
+Funktion initArray()
+Gesamtlaenge: 0 bytes
+
+
